@@ -33,4 +33,12 @@ public class UserHomeController {
 		count++;
 		return count;
 	}
+	
+	@RequestMapping("/user/home/main5")
+	@ResponseBody
+	
+	public String showMain5() {		
+		count=0;
+		return "count의 값이 초기화 되었습니다.";
+	}
 }
